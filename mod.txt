@@ -1,0 +1,12 @@
+{
+	"name" : "Weapon Shadows",
+	"description" : "Adds shadows to player and NPC weapons",
+	"author" : "Hoppip",
+	"color" : "0.043 0.808 0.6",
+	"image" : "mod.png",
+	"version" : "1.0",
+	"updates" : [{
+		"identifier" : "pd2-weapon-shadows",
+		"host": { "meta": "https://updates.hoppip.at/pd2-weapon-shadows" }
+	}]
+}

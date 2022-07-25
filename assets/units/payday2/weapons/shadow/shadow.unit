@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<unit type="wpn" slot="13">
+	<object file="units/payday2/weapons/shadow/shadow"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData"/>
+	</extensions>
+</unit>

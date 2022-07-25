@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<mod>
+
+	<hooks script_path="mod.lua" hook_id="lib/units/weapons/">
+		<post :hook_id="newnpcraycastweaponbase"/>
+		<post :hook_id="npcraycastweaponbase"/>
+	</hooks>
+
+	<assets base_path="assets/">
+		<file name="units/payday2/weapons/shadow/shadow.material_config"/>
+		<file name="units/payday2/weapons/shadow/shadow.cooked_physics"/>
+		<file name="units/payday2/weapons/shadow/shadow.model"/>
+		<file name="units/payday2/weapons/shadow/shadow.object"/>
+		<file name="units/payday2/weapons/shadow/shadow.unit"/>
+	</assets>
+
+</mod>
