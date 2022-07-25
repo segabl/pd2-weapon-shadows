@@ -1,3 +1,3 @@
 <materials version="3" group="shadow_caster">
-	<material render_template="shadow_caster_only" version="2" name="shadow_caster"/>
+	<material render_template="shadow_caster_only:INSTANCED" version="2" name="shadow_caster"/>
 </materials>
