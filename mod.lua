@@ -21,6 +21,11 @@ if not WeaponShadows then
 
 	local ids_shadow_unit = Idstring("units/payday2/weapons/shadow/shadow")
 	function WeaponShadows:spawn_shadow_unit(weapon_base)
+		-- Check if this is a valid weapon base (More Weapon Stats makes "fake" bases to calculate stats)
+		if not alive(weapon_base._unit) then
+			return
+		end
+
 		weapon_base._shadow_unit = World:spawn_unit(ids_shadow_unit, weapon_base._unit:position(), weapon_base._unit:rotation())
 		weapon_base._unit:link(weapon_base._unit:orientation_object():name(), weapon_base._shadow_unit, weapon_base._shadow_unit:orientation_object():name())
 
