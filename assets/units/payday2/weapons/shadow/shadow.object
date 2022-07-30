@@ -3,11 +3,15 @@
 	<diesel materials="units/payday2/weapons/shadow/shadow" orientation_object="rp"/>
 	<graphics>
 		<object name="s_assault_rifle" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
+		<object name="s_bow" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
 		<object name="s_bullpup" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
+		<object name="s_crossbow" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
+		<object name="s_grenade_launcher" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
 		<object name="s_lmg" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
 		<object name="s_minigun" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
 		<object name="s_pistol" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
 		<object name="s_revolver" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
+		<object name="s_saw" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
 		<object name="s_shotgun" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
 		<object name="s_smg" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
 		<object name="s_snp" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
