@@ -6,11 +6,16 @@
 		<object name="s_bow" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
 		<object name="s_bullpup" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
 		<object name="s_crossbow" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
+		<object name="s_flamethrower" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
 		<object name="s_grenade_launcher" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
+		<object name="s_hunter" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
 		<object name="s_lmg" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
+		<object name="s_m32" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
 		<object name="s_minigun" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
 		<object name="s_pistol" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
+		<object name="s_ray" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
 		<object name="s_revolver" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
+		<object name="s_rpg7" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
 		<object name="s_saw" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
 		<object name="s_shotgun" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
 		<object name="s_smg" enabled="false" shadow_caster="true" instance_struct="world_tm"/>

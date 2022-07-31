@@ -5,9 +5,17 @@ if not WeaponShadows then
 	WeaponShadows.akimbo_mappings = {}
 	WeaponShadows.id_redirects = {
 		aa12 = Idstring("s_assault_rifle"),
+		arbiter = Idstring("s_bullpup"),
+		ching = Idstring("s_shotgun"),
+		flamethrower = Idstring("s_flamethrower"),
+		flamethrower_mk2 = Idstring("s_flamethrower"),
 		judge = Idstring("s_revolver"),
+		mac10 = Idstring("s_uzi"),
 		saiga = Idstring("s_assault_rifle"),
-		tecci = Idstring("s_lmg")
+		sbl = Idstring("s_shotgun"),
+		system = Idstring("s_flamethrower"),
+		tecci = Idstring("s_lmg"),
+		winchester1874 = Idstring("s_shotgun")
 	}
 	WeaponShadows.hold_redirects = {
 		uzi = Idstring("s_uzi"),
