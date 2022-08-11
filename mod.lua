@@ -10,7 +10,6 @@ if not WeaponShadows then
 		flamethrower = Idstring("s_flamethrower"),
 		flamethrower_mk2 = Idstring("s_flamethrower"),
 		judge = Idstring("s_revolver"),
-		mac10 = Idstring("s_uzi"),
 		saiga = Idstring("s_assault_rifle"),
 		sbl = Idstring("s_shotgun"),
 		system = Idstring("s_flamethrower"),
@@ -64,8 +63,11 @@ if not WeaponShadows then
 		-- If we still don't have a shadow object, check for a shadow object based on weapon category
 		if not shadow_obj then
 			shadow_obj = weapon_base._shadow_unit:get_object(Idstring("s_assault_rifle"))
-			for _, v in ipairs(tweak.categories) do
-				shadow_obj = weapon_base._shadow_unit:get_object(Idstring("s_" .. v)) or shadow_obj
+			for _, category in ipairs(tweak.categories) do
+				if category == "smg" and tweak.hold == "pistol" then
+					category = "uzi"
+				end
+				shadow_obj = weapon_base._shadow_unit:get_object(Idstring("s_" .. category)) or shadow_obj
 			end
 		end
 
