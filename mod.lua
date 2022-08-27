@@ -77,6 +77,12 @@ if not WeaponShadows then
 		end
 	end
 
+	function WeaponShadows:set_shadow_unit_visibile(weapon_base, state)
+		if alive(weapon_base._shadow_unit) then
+			weapon_base._shadow_unit:set_visible(state)
+		end
+	end
+
 	function WeaponShadows:remove_shadow_unit(weapon_base)
 		if alive(weapon_base._shadow_unit) then
 			weapon_base._shadow_unit:set_slot(0)
