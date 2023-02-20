@@ -10,6 +10,7 @@ if not WeaponShadows then
 		flamethrower = Idstring("s_flamethrower"),
 		flamethrower_mk2 = Idstring("s_flamethrower"),
 		judge = Idstring("s_revolver"),
+		mossberg = Idstring("s_revolver"),
 		saiga = Idstring("s_assault_rifle"),
 		sbl = Idstring("s_shotgun"),
 		system = Idstring("s_flamethrower"),
