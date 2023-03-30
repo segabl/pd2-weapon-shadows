@@ -21,5 +21,10 @@
 		<object name="s_smg" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
 		<object name="s_snp" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
 		<object name="s_uzi" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
+
+		<object name="s_shield_akan" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
+		<object name="s_shield_lights" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
+		<object name="s_shield_phalanx" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
+		<object name="s_shield_small" enabled="false" shadow_caster="true" instance_struct="world_tm"/>
 	</graphics>
 </dynamic_object>
