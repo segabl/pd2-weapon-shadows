@@ -3,7 +3,7 @@
 
 	<hooks script_path="mod.lua" hook_id="lib/">
 		<post :hook_id="tweak_data/weapontweakdata"/>
-		<post :hook_id="units/enemies/cop/copinventory"/>
+		<post :hook_id="units/beings/player/playerinventory"/>
 		<post :hook_id="units/weapons/newnpcraycastweaponbase"/>
 		<post :hook_id="units/weapons/npcraycastweaponbase"/>
 	</hooks>
