@@ -94,7 +94,7 @@ if not WeaponShadows then
 	end
 
 	function WeaponShadows:spawn_shield_shadow_unit(extension)
-		if alive(extension._shadow_unit) then
+		if not extension or alive(extension._shadow_unit) then
 			return
 		end
 
